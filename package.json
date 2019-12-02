@@ -1,0 +1,13 @@
+{
+  "name": "fabric-betterdocs",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "jsdoc fabric.js/dist/fabric.js -c jsdoc.json",
+  },
+  "author": "Meyt",
+  "license": "ISC",
+  "devDependencies": {
+    "docdash": "^1.1.1",
+    "jsdoc": "^3.6.3"
+  }
+}
